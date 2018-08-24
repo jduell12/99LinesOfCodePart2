@@ -1,0 +1,17 @@
+h1 {
+    color: #2ba4e2;
+    text-align: center;
+}
+
+h3 {
+    text-transform: uppercase;
+    margin: 1em;
+}
+
+.friend{
+    background-color: #2c7dd480;
+    text-align: center;
+    padding: 5em;
+    margin: 3em;
+    color: #7512af;
+}
