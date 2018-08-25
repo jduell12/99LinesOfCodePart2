@@ -59,10 +59,61 @@ btn.addEventListener("click", function () {
     for (let i = 0; i < friends.length; i++) {
         let name = friends[i];
         for (let x = 99; x > 0; x--) {
-            if (x > 1) {
-                console.log(x + " lines of code in the file, " + x + " lines of code; " + name + " strikes one out, clears it all out, " + (x - 1) + " lines of code in the file");
+            if (name == 'Alex') {
+                let aPara = document.createElement('p');
+                if (x > 1) {
+                    let aPTxt = document.createTextNode(x + " lines of code in the file, " + x + " lines of code; " + name + " strikes one out, clears it all out, " + (x - 1) + " lines of code in the file");
+                    aPara.appendChild(aPTxt);
+                    alexDiv.appendChild(aPara);
+                } else {
+                    let final = document.createTextNode(x + " lines of code in the file, " + x + " lines of code; " + name + " strikes one out, clears it all out, no more lines of code in the file");
+                    aPara.appendChild(final);
+                    alexDiv.appendChild(aPara);
+                }
+            } else if (name == 'Jeremy') {
+                let aPara = document.createElement('p');
+                if (x > 1) {
+                    let aPTxt = document.createTextNode(x + " lines of code in the file, " + x + " lines of code; " + name + " strikes one out, clears it all out, " + (x - 1) + " lines of code in the file");
+                    aPara.appendChild(aPTxt);
+                    jeremyDiv.appendChild(aPara);
+                } else {
+                    let final = document.createTextNode(x + " lines of code in the file, " + x + " lines of code; " + name + " strikes one out, clears it all out, no more lines of code in the file");
+                    aPara.appendChild(final);
+                    jeremyDiv.appendChild(aPara);
+                }
+            } else if (name == 'Andrea') {
+                let aPara = document.createElement('p');
+                if (x > 1) {
+                    let aPTxt = document.createTextNode(x + " lines of code in the file, " + x + " lines of code; " + name + " strikes one out, clears it all out, " + (x - 1) + " lines of code in the file");
+                    aPara.appendChild(aPTxt);
+                    andreaDiv.appendChild(aPara);
+                } else {
+                    let final = document.createTextNode(x + " lines of code in the file, " + x + " lines of code; " + name + " strikes one out, clears it all out, no more lines of code in the file");
+                    aPara.appendChild(final);
+                    andreaDiv.appendChild(aPara);
+                }
+            } else if (name == 'Michelle') {
+                let aPara = document.createElement('p');
+                if (x > 1) {
+                    let aPTxt = document.createTextNode(x + " lines of code in the file, " + x + " lines of code; " + name + " strikes one out, clears it all out, " + (x - 1) + " lines of code in the file");
+                    aPara.appendChild(aPTxt);
+                    michelleDiv.appendChild(aPara);
+                } else {
+                    let final = document.createTextNode(x + " lines of code in the file, " + x + " lines of code; " + name + " strikes one out, clears it all out, no more lines of code in the file");
+                    aPara.appendChild(final);
+                    michelleDiv.appendChild(aPara);
+                }
             } else {
-                console.log(x + " lines of code in the file, " + x + " lines of code; " + name + " strikes one out, clears it all out, no more lines of code in the file");
+                let aPara = document.createElement('p');
+                if (x > 1) {
+                    let aPTxt = document.createTextNode(x + " lines of code in the file, " + x + " lines of code; " + name + " strikes one out, clears it all out, " + (x - 1) + " lines of code in the file");
+                    aPara.appendChild(aPTxt);
+                    samDiv.appendChild(aPara);
+                } else {
+                    let final = document.createTextNode(x + " lines of code in the file, " + x + " lines of code; " + name + " strikes one out, clears it all out, no more lines of code in the file");
+                    aPara.appendChild(final);
+                    samDiv.appendChild(aPara);
+                }
             }
         }
     }
